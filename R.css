@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #203a43;
+
+}
+
+.continar{
+    position: relative;
+    max-width: 900px;
+    width: 100%; 
+    border-radius: 6px;
+    padding: 30px;
+    margin: 0 15px;
+    background-color: #fff; 
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+
+}
+
+.reg{
+    position: relative;
+    font-size: 18px;
+    font-weight: 450;
+    color:#333
+}
+.reg::before{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left:0;
+    height: 3px;
+    width: 27px;
+    border-radius: 8px;
+    background-color: rgb(33, 72, 95);
+
+}
+
+.form{
+    position:relative;
+    min-height: 490px;
+    background-color: #fff;
+    margin-top: 16px;
+
+}
+
+.personal-detials{
+    margin-top: 30px;
+}
+
+.title1{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 17px;
+    font-weight:350px ;
+    margin: 6px 0;
+    color: #333;
+
+
+}
+
+
+.continar form .fileds{
+ display: flex;      
+ align-items: center;      
+ justify-content: space-between;
+ flex-wrap: wrap;
+}
+
+.input-filed{
+   display: flex;
+   
+   width: calc(100% / 1 - 15px);
+   flex-direction: column; 
+   margin: 4px 0;
+  
+}
+   
+    
+.input-filed label{
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 2px;
+}
+
+#lastname,#firstname,#birthdate,#personal,
+#degree,#phone,#empl{
+    padding-left: 8px;
+    height: 40px;
+    font-size: 16px;
+    border: 1px solid #aaa ;
+    outline: none;
+    border-radius: 5px;
+    margin: 8px 0;
+    color: #333;
+}
+
+
+.Gender{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+
+
+   margin: 20px 0;
+   
+  
+
+}
+
+.gender{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.image{
+    display: flex;
+    justify-content:start;
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+}
+.preview{
+    display: flex;
+    justify-content:start;
+    
+}
+.btn{
+    display: inline-flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 398px;
+
+}
+.next{
+    
+    background-color:  rgb(33, 72, 95);
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: box-shadow 0.15s;
+
+}
+.next:hover{
+     background-color: rgb(65, 111, 138);
+
+}
+       
+
+       
+       
